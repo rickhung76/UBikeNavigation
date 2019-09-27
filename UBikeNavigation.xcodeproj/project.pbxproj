@@ -8,11 +8,50 @@
 
 /* Begin PBXBuildFile section */
 		2B071676233DE32700B9481C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B071675233DE32700B9481C /* AppDelegate.swift */; };
-		2B071678233DE32700B9481C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B071677233DE32700B9481C /* SceneDelegate.swift */; };
 		2B07167A233DE32700B9481C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B071679233DE32700B9481C /* ViewController.swift */; };
 		2B07167D233DE32700B9481C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B07167B233DE32700B9481C /* Main.storyboard */; };
 		2B07167F233DE32800B9481C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B07167E233DE32800B9481C /* Assets.xcassets */; };
 		2B071682233DE32800B9481C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B071680233DE32800B9481C /* LaunchScreen.storyboard */; };
+		2B0716CE233DE36000B9481C /* SFramework.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B071689233DE36000B9481C /* SFramework.xcassets */; };
+		2B0716CF233DE36000B9481C /* Repository + UBike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B07168D233DE36000B9481C /* Repository + UBike.swift */; };
+		2B0716D0233DE36000B9481C /* ResponseModel + NewTaipeiUBike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B07168F233DE36000B9481C /* ResponseModel + NewTaipeiUBike.swift */; };
+		2B0716D1233DE36000B9481C /* ResponseModel + TaipeiUBike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B071690233DE36000B9481C /* ResponseModel + TaipeiUBike.swift */; };
+		2B0716D2233DE36000B9481C /* UBikeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B071692233DE36000B9481C /* UBikeAPI.swift */; };
+		2B0716D3233DE36000B9481C /* Endpoint + UBikes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B071694233DE36000B9481C /* Endpoint + UBikes.swift */; };
+		2B0716D4233DE36000B9481C /* Endpoint .swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B071695233DE36000B9481C /* Endpoint .swift */; };
+		2B0716D5233DE36000B9481C /* UBikeStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B071697233DE36000B9481C /* UBikeStation.swift */; };
+		2B0716D6233DE36000B9481C /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B071699233DE36000B9481C /* APIService.swift */; };
+		2B0716D7233DE36000B9481C /* APIService + UBikeStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B07169A233DE36000B9481C /* APIService + UBikeStation.swift */; };
+		2B0716D8233DE36000B9481C /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B07169B233DE36000B9481C /* DataLoader.swift */; };
+		2B0716E0233DE36000B9481C /* SNearestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B0716A7233DE36000B9481C /* SNearestViewController.xib */; };
+		2B0716E1233DE36000B9481C /* SNearestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0716A8233DE36000B9481C /* SNearestViewController.swift */; };
+		2B0716E2233DE36000B9481C /* SNearestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0716AA233DE36000B9481C /* SNearestCell.swift */; };
+		2B0716E3233DE36000B9481C /* SNearestCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B0716AB233DE36000B9481C /* SNearestCell.xib */; };
+		2B0716E4233DE36000B9481C /* FCMapViewController_user.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B0716AE233DE36000B9481C /* FCMapViewController_user.png */; };
+		2B0716E5233DE36000B9481C /* FCMapViewController_pinArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B0716AF233DE36000B9481C /* FCMapViewController_pinArrow.png */; };
+		2B0716E6233DE36000B9481C /* FCMapViewController_destinaction.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B0716B0233DE36000B9481C /* FCMapViewController_destinaction.png */; };
+		2B0716E7233DE36000B9481C /* FCMapViewController_xxx.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B0716B1233DE36000B9481C /* FCMapViewController_xxx.png */; };
+		2B0716E8233DE36000B9481C /* FCMapViewController_3d.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B0716B2233DE36000B9481C /* FCMapViewController_3d.png */; };
+		2B0716E9233DE36000B9481C /* FCMapViewController_menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B0716B3233DE36000B9481C /* FCMapViewController_menu.png */; };
+		2B0716EA233DE36000B9481C /* FCMapViewController_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B0716B4233DE36000B9481C /* FCMapViewController_pin.png */; };
+		2B0716EB233DE36000B9481C /* FCMapViewController_location.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B0716B5233DE36000B9481C /* FCMapViewController_location.png */; };
+		2B0716EC233DE36000B9481C /* MapKit + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0716B6233DE36000B9481C /* MapKit + Extensions.swift */; };
+		2B0716ED233DE36000B9481C /* FCMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B0716B7233DE36000B9481C /* FCMapViewController.xib */; };
+		2B0716EE233DE36000B9481C /* FCMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0716B8233DE36000B9481C /* FCMapViewModel.swift */; };
+		2B0716EF233DE36000B9481C /* FCMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0716B9233DE36000B9481C /* FCMapViewController.swift */; };
+		2B0716F0233DE36000B9481C /* FCMKPointAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0716BB233DE36000B9481C /* FCMKPointAnnotation.swift */; };
+		2B0716F1233DE36000B9481C /* UBStationPointAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0716BC233DE36000B9481C /* UBStationPointAnnotation.swift */; };
+		2B0716F2233DE36000B9481C /* PinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0716BE233DE36000B9481C /* PinView.swift */; };
+		2B0716F3233DE36000B9481C /* PaddingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0716BF233DE36000B9481C /* PaddingLabel.swift */; };
+		2B0716F4233DE36000B9481C /* PinView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B0716C0233DE36000B9481C /* PinView.xib */; };
+		2B0716FA233DE36000B9481C /* SUBikeTabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B0716C9233DE36000B9481C /* SUBikeTabViewController.xib */; };
+		2B0716FB233DE36000B9481C /* SUBikeTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0716CA233DE36000B9481C /* SUBikeTabViewController.swift */; };
+		2B0716FC233DE36000B9481C /* SUBikeRootNavigationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B0716CC233DE36000B9481C /* SUBikeRootNavigationController.xib */; };
+		2B0716FD233DE36000B9481C /* SUBikeRootNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0716CD233DE36000B9481C /* SUBikeRootNavigationController.swift */; };
+		2B071701233DE54300B9481C /* FCBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B071700233DE54300B9481C /* FCBaseViewController.swift */; };
+		2B071706233DE55D00B9481C /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B071704233DE55D00B9481C /* Utils.swift */; };
+		2B071708233DE64100B9481C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B071707233DE64100B9481C /* Extensions.swift */; };
+		2B071709233DECD800B9481C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B071677233DE32700B9481C /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +63,45 @@
 		2B07167E233DE32800B9481C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B071681233DE32800B9481C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B071683233DE32800B9481C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B071689233DE36000B9481C /* SFramework.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = SFramework.xcassets; sourceTree = "<group>"; };
+		2B07168D233DE36000B9481C /* Repository + UBike.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Repository + UBike.swift"; sourceTree = "<group>"; };
+		2B07168F233DE36000B9481C /* ResponseModel + NewTaipeiUBike.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ResponseModel + NewTaipeiUBike.swift"; sourceTree = "<group>"; };
+		2B071690233DE36000B9481C /* ResponseModel + TaipeiUBike.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ResponseModel + TaipeiUBike.swift"; sourceTree = "<group>"; };
+		2B071692233DE36000B9481C /* UBikeAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UBikeAPI.swift; sourceTree = "<group>"; };
+		2B071694233DE36000B9481C /* Endpoint + UBikes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Endpoint + UBikes.swift"; sourceTree = "<group>"; };
+		2B071695233DE36000B9481C /* Endpoint .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Endpoint .swift"; sourceTree = "<group>"; };
+		2B071697233DE36000B9481C /* UBikeStation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UBikeStation.swift; sourceTree = "<group>"; };
+		2B071699233DE36000B9481C /* APIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		2B07169A233DE36000B9481C /* APIService + UBikeStation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "APIService + UBikeStation.swift"; sourceTree = "<group>"; };
+		2B07169B233DE36000B9481C /* DataLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
+		2B0716A7233DE36000B9481C /* SNearestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SNearestViewController.xib; sourceTree = "<group>"; };
+		2B0716A8233DE36000B9481C /* SNearestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SNearestViewController.swift; sourceTree = "<group>"; };
+		2B0716AA233DE36000B9481C /* SNearestCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SNearestCell.swift; sourceTree = "<group>"; };
+		2B0716AB233DE36000B9481C /* SNearestCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SNearestCell.xib; sourceTree = "<group>"; };
+		2B0716AE233DE36000B9481C /* FCMapViewController_user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FCMapViewController_user.png; sourceTree = "<group>"; };
+		2B0716AF233DE36000B9481C /* FCMapViewController_pinArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FCMapViewController_pinArrow.png; sourceTree = "<group>"; };
+		2B0716B0233DE36000B9481C /* FCMapViewController_destinaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FCMapViewController_destinaction.png; sourceTree = "<group>"; };
+		2B0716B1233DE36000B9481C /* FCMapViewController_xxx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FCMapViewController_xxx.png; sourceTree = "<group>"; };
+		2B0716B2233DE36000B9481C /* FCMapViewController_3d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FCMapViewController_3d.png; sourceTree = "<group>"; };
+		2B0716B3233DE36000B9481C /* FCMapViewController_menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FCMapViewController_menu.png; sourceTree = "<group>"; };
+		2B0716B4233DE36000B9481C /* FCMapViewController_pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FCMapViewController_pin.png; sourceTree = "<group>"; };
+		2B0716B5233DE36000B9481C /* FCMapViewController_location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FCMapViewController_location.png; sourceTree = "<group>"; };
+		2B0716B6233DE36000B9481C /* MapKit + Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MapKit + Extensions.swift"; sourceTree = "<group>"; };
+		2B0716B7233DE36000B9481C /* FCMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FCMapViewController.xib; sourceTree = "<group>"; };
+		2B0716B8233DE36000B9481C /* FCMapViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FCMapViewModel.swift; sourceTree = "<group>"; };
+		2B0716B9233DE36000B9481C /* FCMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FCMapViewController.swift; sourceTree = "<group>"; };
+		2B0716BB233DE36000B9481C /* FCMKPointAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FCMKPointAnnotation.swift; sourceTree = "<group>"; };
+		2B0716BC233DE36000B9481C /* UBStationPointAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UBStationPointAnnotation.swift; sourceTree = "<group>"; };
+		2B0716BE233DE36000B9481C /* PinView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinView.swift; sourceTree = "<group>"; };
+		2B0716BF233DE36000B9481C /* PaddingLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaddingLabel.swift; sourceTree = "<group>"; };
+		2B0716C0233DE36000B9481C /* PinView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PinView.xib; sourceTree = "<group>"; };
+		2B0716C9233DE36000B9481C /* SUBikeTabViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SUBikeTabViewController.xib; sourceTree = "<group>"; };
+		2B0716CA233DE36000B9481C /* SUBikeTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SUBikeTabViewController.swift; sourceTree = "<group>"; };
+		2B0716CC233DE36000B9481C /* SUBikeRootNavigationController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SUBikeRootNavigationController.xib; sourceTree = "<group>"; };
+		2B0716CD233DE36000B9481C /* SUBikeRootNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SUBikeRootNavigationController.swift; sourceTree = "<group>"; };
+		2B071700233DE54300B9481C /* FCBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FCBaseViewController.swift; sourceTree = "<group>"; };
+		2B071704233DE55D00B9481C /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		2B071707233DE64100B9481C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +134,214 @@
 		2B071674233DE32700B9481C /* UBikeNavigation */ = {
 			isa = PBXGroup;
 			children = (
+				2B071683233DE32800B9481C /* Info.plist */,
 				2B071675233DE32700B9481C /* AppDelegate.swift */,
 				2B071677233DE32700B9481C /* SceneDelegate.swift */,
 				2B071679233DE32700B9481C /* ViewController.swift */,
-				2B07167B233DE32700B9481C /* Main.storyboard */,
 				2B07167E233DE32800B9481C /* Assets.xcassets */,
+				2B071689233DE36000B9481C /* SFramework.xcassets */,
+				2B0716FE233DE52E00B9481C /* BaseFramework */,
 				2B071680233DE32800B9481C /* LaunchScreen.storyboard */,
-				2B071683233DE32800B9481C /* Info.plist */,
+				2B07167B233DE32700B9481C /* Main.storyboard */,
+				2B07168A233DE36000B9481C /* UBike */,
 			);
 			path = UBikeNavigation;
+			sourceTree = "<group>";
+		};
+		2B07168A233DE36000B9481C /* UBike */ = {
+			isa = PBXGroup;
+			children = (
+				2B07168B233DE36000B9481C /* ApiManager */,
+				2B07169C233DE36000B9481C /* ViewControllers */,
+				2B0716C8233DE36000B9481C /* TabBarControllers */,
+				2B0716CB233DE36000B9481C /* NavigationControllers */,
+			);
+			path = UBike;
+			sourceTree = "<group>";
+		};
+		2B07168B233DE36000B9481C /* ApiManager */ = {
+			isa = PBXGroup;
+			children = (
+				2B07168C233DE36000B9481C /* Repository */,
+				2B07168E233DE36000B9481C /* ResponseModel */,
+				2B071691233DE36000B9481C /* Constant */,
+				2B071693233DE36000B9481C /* Endpoint */,
+				2B071696233DE36000B9481C /* Model */,
+				2B071698233DE36000B9481C /* APIService */,
+			);
+			path = ApiManager;
+			sourceTree = "<group>";
+		};
+		2B07168C233DE36000B9481C /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				2B07168D233DE36000B9481C /* Repository + UBike.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		2B07168E233DE36000B9481C /* ResponseModel */ = {
+			isa = PBXGroup;
+			children = (
+				2B07168F233DE36000B9481C /* ResponseModel + NewTaipeiUBike.swift */,
+				2B071690233DE36000B9481C /* ResponseModel + TaipeiUBike.swift */,
+			);
+			path = ResponseModel;
+			sourceTree = "<group>";
+		};
+		2B071691233DE36000B9481C /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				2B071692233DE36000B9481C /* UBikeAPI.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		2B071693233DE36000B9481C /* Endpoint */ = {
+			isa = PBXGroup;
+			children = (
+				2B071694233DE36000B9481C /* Endpoint + UBikes.swift */,
+				2B071695233DE36000B9481C /* Endpoint .swift */,
+			);
+			path = Endpoint;
+			sourceTree = "<group>";
+		};
+		2B071696233DE36000B9481C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2B071697233DE36000B9481C /* UBikeStation.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2B071698233DE36000B9481C /* APIService */ = {
+			isa = PBXGroup;
+			children = (
+				2B071699233DE36000B9481C /* APIService.swift */,
+				2B07169A233DE36000B9481C /* APIService + UBikeStation.swift */,
+				2B07169B233DE36000B9481C /* DataLoader.swift */,
+			);
+			path = APIService;
+			sourceTree = "<group>";
+		};
+		2B07169C233DE36000B9481C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2B0716A6233DE36000B9481C /* Nearest */,
+				2B0716AC233DE36000B9481C /* Map */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		2B0716A6233DE36000B9481C /* Nearest */ = {
+			isa = PBXGroup;
+			children = (
+				2B0716A7233DE36000B9481C /* SNearestViewController.xib */,
+				2B0716A8233DE36000B9481C /* SNearestViewController.swift */,
+				2B0716A9233DE36000B9481C /* Cell */,
+			);
+			path = Nearest;
+			sourceTree = "<group>";
+		};
+		2B0716A9233DE36000B9481C /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				2B0716AA233DE36000B9481C /* SNearestCell.swift */,
+				2B0716AB233DE36000B9481C /* SNearestCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		2B0716AC233DE36000B9481C /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				2B0716AD233DE36000B9481C /* images */,
+				2B0716B6233DE36000B9481C /* MapKit + Extensions.swift */,
+				2B0716B7233DE36000B9481C /* FCMapViewController.xib */,
+				2B0716B8233DE36000B9481C /* FCMapViewModel.swift */,
+				2B0716B9233DE36000B9481C /* FCMapViewController.swift */,
+				2B0716BA233DE36000B9481C /* MKPointAnnotation */,
+				2B0716BD233DE36000B9481C /* Views */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		2B0716AD233DE36000B9481C /* images */ = {
+			isa = PBXGroup;
+			children = (
+				2B0716AE233DE36000B9481C /* FCMapViewController_user.png */,
+				2B0716AF233DE36000B9481C /* FCMapViewController_pinArrow.png */,
+				2B0716B0233DE36000B9481C /* FCMapViewController_destinaction.png */,
+				2B0716B1233DE36000B9481C /* FCMapViewController_xxx.png */,
+				2B0716B2233DE36000B9481C /* FCMapViewController_3d.png */,
+				2B0716B3233DE36000B9481C /* FCMapViewController_menu.png */,
+				2B0716B4233DE36000B9481C /* FCMapViewController_pin.png */,
+				2B0716B5233DE36000B9481C /* FCMapViewController_location.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		2B0716BA233DE36000B9481C /* MKPointAnnotation */ = {
+			isa = PBXGroup;
+			children = (
+				2B0716BB233DE36000B9481C /* FCMKPointAnnotation.swift */,
+				2B0716BC233DE36000B9481C /* UBStationPointAnnotation.swift */,
+			);
+			path = MKPointAnnotation;
+			sourceTree = "<group>";
+		};
+		2B0716BD233DE36000B9481C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2B0716BE233DE36000B9481C /* PinView.swift */,
+				2B0716BF233DE36000B9481C /* PaddingLabel.swift */,
+				2B0716C0233DE36000B9481C /* PinView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2B0716C8233DE36000B9481C /* TabBarControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2B0716C9233DE36000B9481C /* SUBikeTabViewController.xib */,
+				2B0716CA233DE36000B9481C /* SUBikeTabViewController.swift */,
+			);
+			path = TabBarControllers;
+			sourceTree = "<group>";
+		};
+		2B0716CB233DE36000B9481C /* NavigationControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2B0716CC233DE36000B9481C /* SUBikeRootNavigationController.xib */,
+				2B0716CD233DE36000B9481C /* SUBikeRootNavigationController.swift */,
+			);
+			path = NavigationControllers;
+			sourceTree = "<group>";
+		};
+		2B0716FE233DE52E00B9481C /* BaseFramework */ = {
+			isa = PBXGroup;
+			children = (
+				2B071702233DE55D00B9481C /* Tool */,
+				2B0716FF233DE54300B9481C /* ViewController */,
+				2B071707233DE64100B9481C /* Extensions.swift */,
+			);
+			path = BaseFramework;
+			sourceTree = "<group>";
+		};
+		2B0716FF233DE54300B9481C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2B071700233DE54300B9481C /* FCBaseViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		2B071702233DE55D00B9481C /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				2B071704233DE55D00B9481C /* Utils.swift */,
+			);
+			path = Tool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +402,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B0716E9233DE36000B9481C /* FCMapViewController_menu.png in Resources */,
+				2B0716FA233DE36000B9481C /* SUBikeTabViewController.xib in Resources */,
+				2B0716EB233DE36000B9481C /* FCMapViewController_location.png in Resources */,
+				2B0716CE233DE36000B9481C /* SFramework.xcassets in Resources */,
 				2B071682233DE32800B9481C /* LaunchScreen.storyboard in Resources */,
+				2B0716ED233DE36000B9481C /* FCMapViewController.xib in Resources */,
+				2B0716FC233DE36000B9481C /* SUBikeRootNavigationController.xib in Resources */,
 				2B07167F233DE32800B9481C /* Assets.xcassets in Resources */,
+				2B0716E4233DE36000B9481C /* FCMapViewController_user.png in Resources */,
+				2B0716E8233DE36000B9481C /* FCMapViewController_3d.png in Resources */,
 				2B07167D233DE32700B9481C /* Main.storyboard in Resources */,
+				2B0716EA233DE36000B9481C /* FCMapViewController_pin.png in Resources */,
+				2B0716E7233DE36000B9481C /* FCMapViewController_xxx.png in Resources */,
+				2B0716E3233DE36000B9481C /* SNearestCell.xib in Resources */,
+				2B0716E6233DE36000B9481C /* FCMapViewController_destinaction.png in Resources */,
+				2B0716F4233DE36000B9481C /* PinView.xib in Resources */,
+				2B0716E0233DE36000B9481C /* SNearestViewController.xib in Resources */,
+				2B0716E5233DE36000B9481C /* FCMapViewController_pinArrow.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +431,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B07167A233DE32700B9481C /* ViewController.swift in Sources */,
+				2B071708233DE64100B9481C /* Extensions.swift in Sources */,
+				2B0716E1233DE36000B9481C /* SNearestViewController.swift in Sources */,
+				2B071706233DE55D00B9481C /* Utils.swift in Sources */,
+				2B0716D3233DE36000B9481C /* Endpoint + UBikes.swift in Sources */,
+				2B0716D4233DE36000B9481C /* Endpoint .swift in Sources */,
+				2B0716F2233DE36000B9481C /* PinView.swift in Sources */,
 				2B071676233DE32700B9481C /* AppDelegate.swift in Sources */,
-				2B071678233DE32700B9481C /* SceneDelegate.swift in Sources */,
+				2B0716E2233DE36000B9481C /* SNearestCell.swift in Sources */,
+				2B0716FB233DE36000B9481C /* SUBikeTabViewController.swift in Sources */,
+				2B0716F1233DE36000B9481C /* UBStationPointAnnotation.swift in Sources */,
+				2B071709233DECD800B9481C /* SceneDelegate.swift in Sources */,
+				2B0716F0233DE36000B9481C /* FCMKPointAnnotation.swift in Sources */,
+				2B0716F3233DE36000B9481C /* PaddingLabel.swift in Sources */,
+				2B0716D6233DE36000B9481C /* APIService.swift in Sources */,
+				2B071701233DE54300B9481C /* FCBaseViewController.swift in Sources */,
+				2B0716D2233DE36000B9481C /* UBikeAPI.swift in Sources */,
+				2B0716EE233DE36000B9481C /* FCMapViewModel.swift in Sources */,
+				2B0716D7233DE36000B9481C /* APIService + UBikeStation.swift in Sources */,
+				2B0716EF233DE36000B9481C /* FCMapViewController.swift in Sources */,
+				2B0716CF233DE36000B9481C /* Repository + UBike.swift in Sources */,
+				2B0716D0233DE36000B9481C /* ResponseModel + NewTaipeiUBike.swift in Sources */,
+				2B0716D8233DE36000B9481C /* DataLoader.swift in Sources */,
+				2B0716D5233DE36000B9481C /* UBikeStation.swift in Sources */,
+				2B0716EC233DE36000B9481C /* MapKit + Extensions.swift in Sources */,
+				2B0716FD233DE36000B9481C /* SUBikeRootNavigationController.swift in Sources */,
+				2B0716D1233DE36000B9481C /* ResponseModel + TaipeiUBike.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +610,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.rickhung76.UBikeNavigation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +628,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.rickhung76.UBikeNavigation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
